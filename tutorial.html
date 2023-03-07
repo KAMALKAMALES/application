@@ -1,0 +1,115 @@
+<!document html>
+	<html>
+	<head>
+		<title>registaration form</title>
+		<style>
+			*{box-sizing: border-box;
+}
+input[type=text], input[type=email], input[type=number], input[type=select], input[type=date],input[type=select],input[type=password], input[type=tel]
+{
+    width: 50%;
+    padding: 12px;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+input[type=radio],input[type=checkbox]{
+    width: 15%;
+    padding-left: 0%;
+    border: 1px solid rgb(168, 166, 166);
+    border-radius: 4px;
+    resize: vertical;
+}
+			h1{
+				color: green;
+			}
+			body{
+				font-style: italic;
+				color: BLACK;
+				margin: 2px;
+				padding: 0;
+			}
+			h2{
+				color: pink;
+			}
+			DIV{
+
+               width:600px;
+               padding:20px;
+
+			}
+			.COLOUM{
+				width:500px;
+               padding:20px;
+               font-size: 20px;
+
+			}
+	    </style>
+	</head>
+	<body>
+		<h1 align="center" >STUDENT FEEDBACK FORM ABOUT THE COURSE</h1>
+		<center >
+			<div align="justify">
+			
+			<form style="background: green;">
+			
+			<H2 align="center">1-DAY SEMINAR ABOUT DATA STRUCTURE </H2>
+			<DIV CLASS="COLOUM">
+			NAME:<br><input type="text" name="enter the name" placeholder="Enter the Name">
+			<br>
+			<br>
+			ROLL NO:<br><input type="text" name="enter the roll no" placeholder="Enter the Roll No">
+			<br>
+			<br>
+			EMAIL ID:<br><input type="EMAIL" name="email" placeholder="enter a valid email"><br><br>
+			PROGRAMM:<br><input type="radio" name="programm">B.TECH
+			<br><input type="radio" name="programm">B.E
+			<br><br>
+			<label >BRANCH:</label><br>
+			<select >
+				<option>SELECT</option>
+				<option>ECE</option>
+				<option>EEE</option>
+				<option>CSC</option>
+				<option>IT</option>
+				<option>MBA</option>
+				<option>CIVILE</option>
+				<option>MECH</option>
+				<option>M.SC</option>
+				<option>FT</option>
+				<option>CHEMICAL</option>
+		    </select><br><br>
+		    <label>Is the class is usfull for you ?</label>
+		    <br>
+             <input type="radio" name="pro">NO<br>
+			<input type="radio" name="pro">YES<br><br>
+			<label>How you rate to this course?<label><BR>
+				<select >
+				<option>NICE</option>
+				<option>MODURATE</option>
+				<option>POOR</option>
+			    </select>
+			<BR><BR>
+			<label>Do you need extra time for this course?</label> <BR>   
+			<input type="radio" name="proG">NO<br>
+			<input type="radio" name="proG">YES<br><br>
+			<label>Is there is anything to inprovr in next seminor?</label>
+			<input type="text">
+			 <br><br>
+			 <label>How was the teaching?</label><br>
+			<input type="text"><br><br>
+            <label>Do you like to atten any other course conducted by this aceademy?</label><br>
+			<input type="radio" name="proG">NO<br>
+			<input type="radio" name="proG">YES<br><br>
+			<label>If "Yes" then given your whatsApp no.</label><br>
+			<input type="tel" name="proG"><br><br>
+             <input type="submit" value="Submit">
+
+            <p>By Click the "Submit" button and the form-data will be sent to a page on the 
+            server.</p>
+
+		</DIV>
+            </div>
+		</center>
+	</body>
+	</html>
